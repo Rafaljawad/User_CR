@@ -1,6 +1,6 @@
 
 from flask import Flask, render_template,request,redirect
-# import the class from friend.py
+# import the class from user.py
 from user import User
 app = Flask(__name__)
 #display the create user html which has the form of fisrst name , last name and email //just render html file
