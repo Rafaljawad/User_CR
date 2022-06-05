@@ -3,7 +3,7 @@ from flask import Flask, render_template,request,redirect
 # import the class from user.py
 from user import User
 app = Flask(__name__)
-#display the create user html which has the form of fisrst name , last name and email //just render html file
+#display the create user html which has the form of first name , last name and email //just render html file
 @app.route('/')
 def index():
     return render_template('create_user.html')
