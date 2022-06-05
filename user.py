@@ -1,6 +1,6 @@
 # import the function that will return an instance of a connection
 from mysqlconnection import connectToMySQL
-# model the class after the user table from our database
+# model the class after the user table from our database.
 class User:
     def __init__( self , data ):
         self.id = data['id']
